@@ -5,7 +5,7 @@ One script that renders typeset maths cards (KaTeX) and interactive calculus dia
 ```html
 <div id="w">…optional card with $inline$ and $$display$$ maths…</div>
 <script>var D={kind:'graph',fns:['x^3 - 3x'],x:[-3,3]}</script>
-<script src="https://cdn.jsdelivr.net/gh/gaviruatt/math1020-claude-skill@v1/maths-engine.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/gaviruatt/math1020-claude-skill@a23c936488c284714bb06fc7b60af3acf7d5a1d2/maths-engine.min.js"></script>
 ```
 
 `D.kind` is `graph`, `region` or `revolution`; omit `D` for a card with no diagram. `maths-engine.js` is the readable source of `maths-engine.min.js`.
